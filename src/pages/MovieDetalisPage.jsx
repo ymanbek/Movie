@@ -1,10 +1,10 @@
 import { Link, useParams } from "react-router-dom";
-import movies from "../data/Movies";
+import Movies from "../data/movies";
 
 function MovieDetailsPage() {
   const { id } = useParams();
 
-  const movie = movies.find((item) => item.id === Number(id));
+  const movie = Movies.find((item) => item.id === Number(id));
 
   const sessions = ["12:00", "15:00", "18:00", "21:00"];
 

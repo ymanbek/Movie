@@ -1,4 +1,4 @@
-const movies = [
+const Movies = [
   {
     id: 1,
     title: "Avatar",
@@ -29,4 +29,4 @@ const movies = [
       "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=400",
   },
 ];
-export default movies;
+export default Movies;

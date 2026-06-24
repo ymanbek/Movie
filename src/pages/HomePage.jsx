@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import movies from "../data/Movies";
+import movies from "../data/movies";
 function HomePage() {
   return (
     <div
